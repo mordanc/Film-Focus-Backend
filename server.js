@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var MovieInfo = require('./schema');
 
-const port = 3001;
+const port = process.env.PORT || 3001;
 const server = require('http').createServer().listen(port);
 const io = require('socket.io')(server);
 
