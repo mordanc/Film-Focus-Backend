@@ -1,6 +1,5 @@
 // var DATABASE_URL = require('./config');
 var mongoose = require('mongoose');
-var bodyParser = require('body-parser');
 var MovieInfo = require('./schema');
 
 const port = 3001;
